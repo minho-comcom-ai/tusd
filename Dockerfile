@@ -1,2 +1,2 @@
 FROM tusproject/tusd
-CMD --behind-proxy --verbose
+CMD ["--behind-proxy", "--verbose"]
